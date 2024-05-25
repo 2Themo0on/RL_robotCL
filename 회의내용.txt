@@ -57,6 +57,14 @@ min_epsilon = 0.01            # Minimum exploration probability
 decay_rate = 0.005            # Exponential decay rate for exploration prob
 
 =======================================================
+Mapping 과정 
 Grid를 만들 때 벽을 어떻게 구현할 건지?
 생성한 그리드 외곽을 2로 할당해서 
 agent가 탐색할 때 2를 만나면 방향 전환하도록 
+
+ㄴㄴ Grid는 지금이랑 동일하게 가고
+환경을 탐색하는 과정으로 
+Grid 클래스에서 get_map이 
+Agent안에 get_map으로 넣어서 W, H를 계속 갱신하면서 세상을 탐색하는 로직으로
+실제 로봇 청소기는 W,H를 알고 이동하지 못함 
+최대크기를 알고 움직이지 않으니 
