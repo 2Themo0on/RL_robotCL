@@ -48,3 +48,10 @@ grey zone이 발생하지 않겠나?
  미방문한 point가 없는 것이 더 중요하다고 생각
 
 
+====================================================
+Q-learning Epsilon 이런식으로 감소하게 
+# Exploration parameters
+epsilon = 1.0                 # Exploration rate
+max_epsilon = 1.0             # Exploration probability at start
+min_epsilon = 0.01            # Minimum exploration probability 
+decay_rate = 0.005            # Exponential decay rate for exploration prob
