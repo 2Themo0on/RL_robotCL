@@ -55,3 +55,8 @@ epsilon = 1.0                 # Exploration rate
 max_epsilon = 1.0             # Exploration probability at start
 min_epsilon = 0.01            # Minimum exploration probability 
 decay_rate = 0.005            # Exponential decay rate for exploration prob
+
+=======================================================
+Grid를 만들 때 벽을 어떻게 구현할 건지?
+생성한 그리드 외곽을 2로 할당해서 
+agent가 탐색할 때 2를 만나면 방향 전환하도록 
